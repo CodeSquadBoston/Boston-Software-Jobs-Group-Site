@@ -41,5 +41,8 @@ router.get('/forgotpwd', (req, res) =>{
   res.render('pages/forgotpwd')
 })
 
+router.get('/add-experience', (req, res) => {
+  res.render('pages/add-experience')
+})
 
 module.exports = router;
